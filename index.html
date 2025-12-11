@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <title>Immersive Final</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -10,66 +11,73 @@
 <body>
   
   <article id="main">
-    <section id="s0">
-      <p> Enter password: </p>
-    </section>
+    <label for="i1">Enter password:</label>
     <input type="text" id="i1">
     <button id="b1" onclick="reveal(1)">Submit</button><br>
     <section class="reveal" id="s1" hidden>
-      <p> Text 1 </p>
+      <div class="twocolumn">
+        <div class="left">
+          <p>You’ve found the main board for the puzzle game. And with it comes the gameplay loop. For each password you find, plug it in to the corresponding lock. As you find each one, the truth will be revealed.</p>
+          <p>In interacting with this class, I’ve realized one key thing: once you add any element of interactivity to a piece of theatre, it stops being just a show… and turns into a game. Once the audience has any interactivity, they become capable of failing to do what you want them to, and in turn, the likelihood that your piece of theatre succeeds becomes uncertain. Because of this, it’s vital to set up your piece so that you minimize the risk of derailing, so that every audience member gets the maximum enjoyment out of it.</p>
+        </div>
+        <div class="right">
+          <img src="IMG_1.jpg" width=300 alt="A Picture of AJ"><br>
+        </div>
+      </div>
       <label for="i2">Label 2:</label>
       <input type="text" id="i2">
       <button id="b2" onclick="reveal(2)">Submit</button><br>
       <section class="reveal" id="s2" hidden>
-        <p> Text 2 </p>
+        <p>There are many ways to design a game, narratively speaking. The “Linear” or “Railroad” system is as simple as a show, or a movie. A perfectly linear game has no interactivity in the slightest, but the vast majority of games have at least some interaction. While most theatre pieces will conclude whether the audience participates or not, this piece requires the audience members to interact with it in order to conclude in a satisfying way. Picture it like a system of levels and checkpoints. In the world of, say, Halo, you need to reach a certain point on the map for the level to progress. However, by rushing straight to that point you can skip huge chunks of the intended route accidentally. If a developer gives the audience access to that route, it is up to that developer to guide the story in a way that avoids the shortcut being the main direction people accidentally go.</p>
       </section>
       <label for="i2">Label 3:</label>
       <input type="text" id="i3">
       <button id="b3" onclick="reveal(3)">Submit</button><br>
       <section class="reveal" id="s3" hidden>
-        <p> Text 3 </p>
+        TODO: AUDIO
       </section>
       <label for="i2">Label 4:</label>
       <input type="text" id="i4">
       <button id="b4" onclick="reveal(4)">Submit</button><br>
       <section class="reveal" id="s4" hidden>
-        <p> Text 4 </p>
+        <p>I see many of our immersive theatre pieces through this lens, and in many cases, it disappoints me. So many immersive experiences were as simple as a person having us sit on the floor and taste or touch or hear something, and then calling it a day. The biggest piece missing was the drive to keep going. The wonder as to what’s around the bend, or the excitement for what just happened letting us coast along to see what comes next. In many cases I found myself trying to “game the system”. To take a path that wasn’t anticipated, or to take notice when I missed a cue or left behind an interaction. Which in a roundabout way was the lesson the class was trying to teach us, so I suppose it succeeded? If everything always went perfectly to plan, we would never learn anything. Still, there is a direct link between effort and results in work like this, and it always shows through.</p>
+        <p>There’s a riddle I’ve heard about Apollo, the God of Theatre. It says when the sun sets, it sets north of Central Park. That or the Netherlands, occasionally. If only I could find where Apollo rests, maybe I’d get to speak to him.</p>
       </section>
       <label for="i2">Label 5:</label>
       <input type="text" id="i5">
       <button id="b5" onclick="reveal(5)">Submit</button><br>
       <section class="reveal" id="s5" hidden>
-        <p> Text 5 </p>
+        <p>We now begin a trial by fire. Beneath this paragraph are three of the next four passwords, in order, but each requires a special task to be completed before you can unlock it. For the first, you must fill two important sponges with soap and water, head out to your front step, and hold them until they are almost completely dry. If you choose to squeeze, you speed up your success at the cost of your hands to the freezing cold. For the second, begin by brushing your teeth. Then, take a spoonful of peanut butter straight from the jar and eat it. Then, the password will be the third and worst thing you can think of to add to your palette after the first two. If you aren’t right, you get the chance to reveal the password anyways. Finally, the third trial might never leave your house. Act as if you’re making a tuna sandwich, but once you have the mayo and tuna mixed together, throw it in the microwave for as long as you think is safe. Then you may deal with the consequences and reveal the ninth password.</p>
       </section>
       <label for="i2">Label 6:</label>
       <input type="text" id="i6">
       <button id="b6" onclick="reveal(6)">Submit</button><br>
       <section class="reveal" id="s6" hidden>
-        <p> Text 6 </p>
+        <p>Sometimes, the only way over is through. You’re in a trial by fire, a test of willpower and resolve. In a perfect world, you don’t know the results of your bravery, but you are brave anyways, because that’s what you’re expected to be. It’s easy to give up in situations like these. You, however, do not. As a reward for doing the first of these tasks, the eight password is not the third trial by fire. Instead, for the eight password, go back to the very first page of the paper, if it still exists, and check for any… misspellings.</p>
       </section>
       <label for="i2">Label 7:</label>
       <input type="text" id="i7">
       <button id="b7" onclick="reveal(7)">Submit</button><br>
       <section class="reveal" id="s7" hidden>
-        <p> Text 7 </p>
+        <p>You’ve done the unthinkable. How did it taste? Not good, certainly, but you’re one step closer to being done. But one secret has hid from you this whole time. Perhaps some of the words on the first page aren’t spelled quite right?</p>
       </section>
       <label for="i2">Label 8:</label>
       <input type="text" id="i8">
       <button id="b8" onclick="reveal(8)">Submit</button><br>
       <section class="reveal" id="s8" hidden>
-        <p> Text 8 </p>
+        <p>The original movie Saw was criticized in a later installment of the work for being an unwinnable game. At the outset of the puzzle, the main character unconsciously took an action that led to their own inevitable death, making the death game no longer a game, but simply a murder. Only a player smart enough to notice the mistake without ever knowing why it was a mistake would be able to find this piece of the puzzle, which is one of the most unfair possible strategies to game design, but equally one of the most rewarding to a player who completes it successfully.</p>
       </section>
       <label for="i2">Label 9:</label>
       <input type="text" id="i9">
       <button id="b9" onclick="reveal(9)">Submit</button><br>
       <section class="reveal" id="s9" hidden>
-        <p> Text 9 </p>
+        <p>You didn’t need to do this one. You didn’t need to do any of them, really. The solution was right there. Whether you chose to do it or not, an aspect of the game is not forcing a player to take exactly the route you planned them to, but to present them with an obstacle and permit them to find their own solution, even if that solution may be cheesing their way out of putting in the work. The next password may be hiding right underneath your nose. Behind the cover art lies a tool you will need. On the 25th page of Carol Oja’s academia, you will create the 10th password.</p>
       </section>
       <label for="i2">Label 10:</label>
       <input type="text" id="i10">
       <button id="b10" onclick="reveal(10)">Submit</button><br>
       <section class="reveal" id="s10" hidden>
-        <p> Text 10 </p>
+        <p>Some puzzles are ones you can see, but don’t have the tools to solve until much later. It contributes to the overall expansiveness of the game, to see your answer but not yet have the keys to solve it. Sometimes the trick is hidden right under your nose. In fact, if you collect every password you’ve found in this game, you may find they have a common thread. The first letter of each is the final password of the project.</p>
       </section>
       <label for="i2">Label 11:</label>
       <input type="text" id="i11">
